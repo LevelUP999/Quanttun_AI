@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Youtube, Instagram, TikTok } from 'lucide-react';
+import { Youtube, Instagram, Tv } from 'lucide-react';
 import Logo from './Logo';
 import { useLanguage } from '@/hooks/useLanguage';
 
@@ -25,7 +24,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a href="#" className="text-gray-500 hover:text-quanttun-purple transition-colors" aria-label="TikTok">
-                <TikTok size={20} />
+                <Tv size={20} />
               </a>
             </div>
           </div>
